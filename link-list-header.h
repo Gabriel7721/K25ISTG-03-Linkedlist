@@ -7,15 +7,18 @@ typedef struct Node
     struct Node *next;
 } Node;
 
+
+
 typedef struct LinkedList
 {
     Node *head;
     Node *tail;
+    int size;
 } LinkedList;
 
-Node *createNode();
+Node *createNode(int value);
 LinkedList *createList();
-void addLast();
-void printList();
+void addLast(LinkedList *list, int value);
+void printList(LinkedList *list);
 
 #endif
