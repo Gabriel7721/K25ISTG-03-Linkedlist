@@ -13,4 +13,9 @@ typedef struct LinkedList
     Node *tail;
 } LinkedList;
 
+Node *createNode();
+LinkedList *createList();
+void addLast();
+void printList();
+
 #endif
