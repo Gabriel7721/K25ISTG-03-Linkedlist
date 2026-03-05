@@ -1,5 +1,6 @@
 #include "link-list-header.h"
 #include <malloc.h>
+#include <stdio.h>
 
 LinkedList *createList()
 {
